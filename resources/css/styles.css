@@ -1,0 +1,44 @@
+
+.tours-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.tour-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.tour-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tour-content p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
